@@ -16,9 +16,9 @@ import icons from '@/constants/icons';
 import images from '@/constants/images';
 
 const Auth = () => {
-  const { refetch, loading, isLogged } = useGlobalContext();
+  const { refetch, loading, isLoggedIn } = useGlobalContext();
 
-  if (!loading && isLogged) return <Redirect href='/' />;
+  if (!loading && isLoggedIn) return <Redirect href='/' />;
 
   const handleLogin = async () => {
     const result = await login();
