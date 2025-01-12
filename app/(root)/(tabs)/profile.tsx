@@ -10,7 +10,6 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import icons from '@/constants/icons';
-import images from '@/constants/images';
 import { settings } from '@/constants/data';
 import { useGlobalContext } from '@/lib/global-provider';
 import { logout } from '@/lib/appwrite';
@@ -33,6 +32,7 @@ const SettingsItem = ({
   <TouchableOpacity
     onPress={onPress}
     className='flex flex-row items-center justify-between py-3'
+    key={title}
   >
     <View className='flex flex-row items-center gap-3'>
       <Image source={icon} className='size-6' />
