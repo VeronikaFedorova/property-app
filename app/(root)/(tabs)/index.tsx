@@ -15,7 +15,6 @@ import {
   Button,
   FlatList,
   Image,
-  ScrollView,
   Text,
   TouchableOpacity,
   View,
