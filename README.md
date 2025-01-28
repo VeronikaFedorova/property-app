@@ -4,8 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 **Here you can see the Ui of the modern and perfect state app**
 
-![IMAGE 2025-01-28 12:54:28] 
-<img url='https://github.com/user-attachments/assets/410a2501-4ec0-45ec-9532-e012b3700fa7' width='400' height='600' />
+![IMAGE 2025-01-28 12:54:28](https://github.com/user-attachments/assets/410a2501-4ec0-45ec-9532-e012b3700fa7 | width=100)
 
 ![IMAGE 2025-01-28 12:54:36](https://github.com/user-attachments/assets/0863d6ae-559c-40ab-9f7c-70d8c218487e)
 
